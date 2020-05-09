@@ -5,9 +5,9 @@ Looking at the data for COVID-19 infections in the US reveals a sharp peak after
 
 ![CSSE data with linear fit](images/Infection_data.png)  
 
-Attempting a linear fit of the data obivously fails.  
+Attempting a linear fit of the data obviously fails.  
 A well studied model for predicting infectious diseases is the so-called SIR model. 
-It is a set of coupled ODEs for the Susceptible, Infected and Recovered population. A test run yields the following output:  
+It is a set of coupled ODEs for the Susceptible, Infected and Recovered population. A test run yields the following characteristic output:  
 
 ![SIR test](images/SIR_model_output.png)
 
