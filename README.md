@@ -1,4 +1,6 @@
 # COVID19-SIR-model
+## Disclaimer
+This is a toy model that *may* be extended later into something more accurate.
 ## Description
 A very simple SIR model [1] implementation and Levenberg-Marquardt [2,3] fit with the [Johns Hopkins University CSSE data for COVID-19](https://github.com/CSSEGISandData/COVID-19) [4].
 Looking at the data for COVID-19 infections in the US reveals a sharp peak after the reported numbers have remained flat for the first 40 days.  
