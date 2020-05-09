@@ -28,8 +28,8 @@
 # 
 
 # Read CSV COVID-19 data into R:
-InfData <- read.csv("./time_series_covid19_confirmed_global.csv",header = F,sep = ",")
-RecData <- read.csv("./time_series_covid19_recovered_global.csv",header = F,sep = ",")
+InfData <- read.csv("./data/time_series_covid19_confirmed_global.csv",header = F,sep = ",")
+RecData <- read.csv("./data/time_series_covid19_recovered_global.csv",header = F,sep = ",")
 summary(InfData)
 summary(RecData)
 
