@@ -134,7 +134,7 @@ out <- ode(y = state, times = times, func = SIR, parms = parest)
 outdf = data.frame(out)
 gra = ggplot(data = dfi, aes(x=seq(1, 66, by = 1.0),y=dfi$infected)) + geom_point()
 gra = gra + geom_line(data = outdf, aes(x=times+40,y=I))
-gra = gra + labs(title="SIR model COVID-19 prediction") + xlab("Time [a]") + ylab("Number of COVID-19 infections [1 human]")
+gra = gra + labs(title="SIR model COVID-19 prediction") + xlab("Time [days]") + ylab("Number of COVID-19 infections [1 human]")
 print(gra)
 
 #End of Script.
